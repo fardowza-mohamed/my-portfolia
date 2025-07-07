@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #eee;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #00ffcc;
+}
+
+section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #444;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
+/* Light mode */
+body.light-mode {
+    background-color: #f4f4f4;
+    color: #111;
+}
+
+body.light-mode header,
+body.light-mode footer {
+    background-color: #ddd;
+}
+
+body.light-mode nav a {
+    color: #007acc;
+}
+/* Light mode */
